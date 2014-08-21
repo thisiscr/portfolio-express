@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gallery frameColor="0x787878" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
+<image>
+   <url>/../images/Graphics_Gallery/Site_BG_Main.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> Summer 2014</font>]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/New_Site_Logo.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Illustrator <br/><font color="#cfcfcf">Date:</font> Summer 2014</font>]]></caption>
+   <width>465</width>
+   <height>150</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/infinita_kit.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> Winter 2014</font>]]></caption>
+   <width>600</width>
+   <height>550</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/Infinita_Emblem.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Illustrator <br/><font color="#cfcfcf">Date:</font> Winter 2014</font>]]></caption>
+   <width>550</width>
+   <height>550</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/thermlast.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="http://disasteraccountability.org/"><u>Disaster Accountability Project</u></a> <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> Summer 2010</font>]]></caption>
+   <width>465</width>
+   <height>150</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/CBBackWeb.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop & Illustrator<br/><font color="#cfcfcf">Date:</font> Spring 2010</font>]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/riotsandpoetry.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Riots and Poetry (Band) <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> Spring 2010</font>]]></caption>
+   <width>700</width>
+   <height>550</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/smileface.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> Summer 2008</font>]]></caption>
+   <width>700</width>
+   <height>550</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/hirosuepaint.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> 8/11/08</font>]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/abesfire.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> My friend Abe! <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> 6/18/08</font>]]></caption>
+   <width>800</width>
+   <height>600</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/scratchboard.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Art Class (High School) <br/><font color="#cfcfcf">Made With:</font> Scratchboard <br/><font color="#cfcfcf">Date:</font> 2007</font>]]></caption>
+   <width>700</width>
+   <height>465</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/mixedmedia.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Art Class (High School) <br/><font color="#cfcfcf">Made With:</font> Mixed Media <br/><font color="#cfcfcf">Date:</font> 2007</font>]]></caption>
+   <width>700</width>
+   <height>550</height>
+</image>
+<image>
+   <url>/../images/Graphics_Gallery/Kirastylepeg.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Photoshop <br/><font color="#cfcfcf">Date:</font> 11/29/07</font>]]></caption>
+   <width>700</width>
+   <height>550</height>
+</image>
+</gallery>

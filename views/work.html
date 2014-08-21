@@ -1,0 +1,20 @@
+<script type="text/javascript" src="/../swf/autoviewer/swfobject.js"></script>
+<div id="flashcontent" style="height:70%; width:100%;">AutoViewer requires JavaScript and the Flash Player. 
+<a href="http://www.macromedia.com/go/getflashplayer/">Get Flash.</a></div>	
+<script type="text/javascript">
+	var fo = new SWFObject("/../swf/autoviewer/autoviewer.swf", "viewer", "100%", "100%", "8", "#181818");
+	fo.addVariable("xmlURL", "/../swf/autoviewer/"+"{{gallery}}");
+	fo.addParam("wmode", "transparent");
+	gal = "{{gallery}}"
+	// if gallery, display carousel, else display 'coming soon'
+	if(gal != "") {
+		fo.write("flashcontent");	
+	} else {
+		var fl = document.getElementById('flashcontent');
+		fl.innerHTML = '<br class="clear"/><ul id="comingSoon" class="topContentNav subContentNav"><li><a href="#" style="color:white;">Coming Soon</a></li></ul>'
+
+		var cs = document.getElementById('comingSoon');
+      	cs.style.marginLeft = (-1*(cs.offsetWidth/2))+'px';
+	}
+
+</script>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" id="mainBG">
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+
+  <body id="mainBGShade">
+    <!-- <div id="mainBGShade"> -->
+      <div id="topMainContainer">
+        <div id="topLeftHolder">
+          <div id="mainLogo"></div>
+          <div id="separator"></div>
+          <ul class="mainNav">
+              <li><a href="/about" style={{aboutSelect}}>ABOUT</a></li>
+              <li><a href="/work/visual/ux_design" style={{workSelect}}>WORK</a></li>
+              <li><a href="/contact" style={{contactSelect}}>CONTACT</a></li>
+          </ul>
+        </div>
+        <div id="topRightHolder">
+          <div id="content">
+            <div id="tva">
+              <div id="tvaWrapper">
+                <div class="row vertGrad" id="tech"></div>
+                <div class="row vertGrad" id="vis"></div>
+                <div class="row rowLast vertGrad" id="aud"></div>
+                <br class="clear"/>
+                <div class="row">T</div>
+                <div class="row">V</div>
+                <div class="row rowLast">A</div>
+                <br class="clear"/>
+              </div>
+            </div>
+            <div id="curStatsTxt">CURRENT STATS</div>
+          </div>
+        </div>
+      </div>
+      <br class="clear"/>
+      <div id="whiteContainer">
+        <div id="blackContainer">
+            <div id="left"></div>
+            <div id="middle">
+                <ul id="top" class="topContentNav">
+                  {{#each topItems}}
+                  <li><a href="{{this.defaultLink}}" style={{this.mStyle}}>{{this.menuName}}</a></li>
+                {{/each}}
+                </ul>
+            </div>
+            <div id="right"></div>
+            <div id="greyContainer">
+              <div id="subL">
+                <a href="https://www.facebook.com/CraigBrown16" style="padding-left:5%;">
+                  <div class="social">&#62220;</div>
+                </a>
+                <a href="http://www.linkedin.com/pub/craig-brown/21/b56/785/">
+                  <div class="social">&#62232;</div>
+                </a>
+                <a href="#">
+                  <div class="social">&#62280;</div>
+                </a>
+              </div>
+              <div id="subM">
+              <ul id="sub" class="topContentNav subContentNav">
+                {{#each subItems}}
+                  <li><a href="{{this.link}}" style={{this.mStyle}}>{{this.menuName}}</a></li>
+                {{/each}}
+              </ul>
+              </div>
+              <div id="subR">
+                <a class="noStyleLink" href="/../images/ResumeForCBrown-WebOfficial.pdf">
+                  <div id="resume"> <span id="valignTxt">Résumé</span> </div>
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <br class="clear"/>
+      <!-- <div id="stage"> -->
+    	   {{{body}}}
+      <!-- </div> -->
+      <br class="clear"/>
+      <div id="footer">
+        <p id="footerFormat">Copyright © Craig Brown 2014.  All Rights Reserved.</p>
+      </div>
+    <!-- </div>  -->
+    <script >
+      //center various elements dynamically
+      var sub = document.getElementById('sub');
+      sub.style.marginLeft = (-1*(sub.offsetWidth/2))+'px';
+
+      var tp = document.getElementById('top');
+      tp.style.marginLeft = (-1*(tp.offsetWidth/2))+'px';
+
+      var ft = document.getElementById('footerFormat');
+      ft.style.marginLeft = (-1*(ft.offsetWidth/2))+'px';
+
+      //reposition current stats bars dynamically
+      var t = document.getElementById('tech');
+      var v = document.getElementById('vis');
+      var a = document.getElementById('aud');
+      var th = t.offsetHeight
+      var vh = v.offsetHeight
+      var ah = a.offsetHeight
+      console.log((th-vh))
+      v.style.marginTop = (th - vh)+'px';
+      a.style.marginTop = (th - ah)+'px';
+      var tvaw = document.getElementById('tvaWrapper');
+      tvaw.style.marginLeft = (-1*(tvaw.offsetWidth/2))+'px';
+
+      // var dis = $('#footer').offset().top - $('#whiteContainer').offset().top
+
+      // console.log("this is the distance: "+dis)
+      // var st = document.getElementById('stage');  
+      // console.log('st height b4 '+st.style.clientHeight ); 
+      // st.style.clientHeight = 0.3*dis+'px';  
+      // console.log('st height after '+st.style.clientHeight );  
+
+    </script>
+  </body>
+</html>
