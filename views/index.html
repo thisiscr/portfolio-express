@@ -22,9 +22,10 @@
 		any: function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } 
 	};
 	if(isMobile.any()){
+	// if(true){
 		var body = document.getElementById('splashBG');
 		body.id = 'mobileSplash';
-		body.innerHTML = "<div id='mwrap'><div id='mSplashLogo'><br class='clear'/></div>Not so fast.. <br/>I'm still working on a responsive, mobile friendly updgrade.</div>"
+		body.innerHTML = "<div id='mwrap'><div id='mSplashLogo'></div><br class='clear'/><div id='notSoFast'>Not so fast... <br/><br/>I'm still working on a responsive, mobile friendly updgrade.</div></div>"
 
 		var mw = document.getElementById('mwrap');
 		mw.style.marginLeft = (-1*(mw.offsetWidth/2))+'px';
@@ -32,7 +33,10 @@
 
 		var ml = document.getElementById('mSplashLogo');
 		ml.style.marginLeft = (-1*(ml.offsetWidth/2))+'px';
-		ml.style.marginTop = (-1*(ml.offsetHeight/2))+'px';
+		// ml.style.marginTop = (-1*(ml.offsetHeight/2))+'px';
+
+		var n = document.getElementById('notSoFast');
+		n.style.marginLeft = (-1*(n.offsetWidth/2))+'px';		
 	}
 
 </script>
