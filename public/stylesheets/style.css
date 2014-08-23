@@ -33,13 +33,12 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%; 
     background-size: 100% 100%;
-	width: 50%;
-	height: 65%;
+	width: 600px;
+	height: 500px;
 	position:relative;
 	/*top: 50%;*/
 	left: 50%;
 	float: left;
-	clear: both;
 }
 
 #notSoFast {
