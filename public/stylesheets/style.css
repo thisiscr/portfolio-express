@@ -12,14 +12,15 @@
 }
 
 #mobileSplash {
-	background:url("../images/Site_BG_Main_Blur.jpg") no-repeat top left fixed;
+	/*background:url("../images/Site_BG_Main_Blur.jpg") no-repeat top left fixed;*/
 	padding:0 0 0 0;
     margin:0 0 5% 0;
     position: absolute;
-	-webkit-background-size: cover !important;
+    background-color: black;
+/*	-webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important; 
-    background-size: cover !important;
+    background-size: cover !important;*/
 	font-family: Eurostile, Arial;
     color: #fff !important;
     text-shadow: 0px 0px .7em #fff;

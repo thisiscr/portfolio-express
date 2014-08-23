@@ -34,11 +34,13 @@
 		var ml = document.getElementById('mSplashLogo');
 		w = ml.offsetWidth
 		h = ml.offsetHeight
-		if (w < h) {
-			h = w*1.3;
-		} else {
-			w = h*.769;
-		}
+		// if (w < h) {
+			// width less tahn height
+			// h = w*1.3;
+		// } else {
+			// width more than height
+		w = h*.769;
+		// }
 		ml.offsetWidth = w;
 		ml.offsetHeight = h;
 
