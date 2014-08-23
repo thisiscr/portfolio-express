@@ -16,10 +16,10 @@
 	padding:0 0 0 0;
     margin:0 0 5% 0;
     position: absolute;
-	-webkit-background-size: 100vh 100%;
-    -moz-background-size: 100vh 100%;
-    -o-background-size: 100vh 100%; 
-    background-size: 100vh 100%;
+	-webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important; 
+    background-size: cover !important;
 	font-family: Eurostile, Arial;
     color: #fff !important;
     text-shadow: 0px 0px .7em #fff;
@@ -32,8 +32,8 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%; 
     background-size: 100% 100%;
-	width: 18em;
-	height: 15em;
+	width: 50%;
+	height: 65%;
 	position:relative;
 	/*top: 50%;*/
 	left: 50%;
