@@ -12,9 +12,9 @@
 }
 
 #mobileSplash {
-	background:url("../images/Site_BG_Main_Blur.jpg") repeat top left fixed;
+	background:url("../images/Site_BG_Main_Blur.jpg") no-repeat top left fixed;
 	padding:0 0 0 0;
-    margin:0 0 0 0;
+    margin:0 0 5% 0;
     position: absolute;
 	-webkit-background-size: cover coverx;
     -moz-background-size: cover;
@@ -24,6 +24,30 @@
     color: #fff !important;
     text-shadow: 0px 0px .7em #fff;
     font-size: 2em;
+}
+
+#mSplashLogo {
+	background:url("../images/New_Site_Logo.png") no-repeat top left;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%; 
+    background-size: 100% 100%;
+	width: 60%;
+	height: 60%;
+	position:relative;
+	top: 50%;
+	left: 50%;
+	float: left;
+}
+
+#mwrap {
+	width: 70%;
+	height: 80%;
+	position:relative;
+	top: 50%;
+	left: 50%;
+	float: left;
+	text-align: center;
 }
 
 #splashLogo {

@@ -24,7 +24,15 @@
 	if(isMobile.any()){
 		var body = document.getElementById('splashBG');
 		body.id = 'mobileSplash';
-		body.innerHTML = "A responsive, mobile friendly version of this site is currently under construction!"
+		body.innerHTML = "<div id='mwrap'><div id='mSplashLogo'><br class='clear'/></div>Not so fast.. <br/>I'm still working on a responsive, mobile friendly updgrade.</div>"
+
+		var mw = document.getElementById('mwrap');
+		mw.style.marginLeft = (-1*(mw.offsetWidth/2))+'px';
+		mw.style.marginTop = (-1*(mw.offsetHeight/2))+'px';
+
+		var ml = document.getElementById('mSplashLogo');
+		ml.style.marginLeft = (-1*(ml.offsetWidth/2))+'px';
+		ml.style.marginTop = (-1*(ml.offsetHeight/2))+'px';
 	}
 
 </script>
