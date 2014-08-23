@@ -8,10 +8,22 @@
     -o-background-size: cover;
     background-size: cover;
     min-width:55em;
-    font-family: Eurostile, Arial;
-    font-size: 2em;
+    
+}
+
+#mobileSplash {
+	background:url("../images/Site_BG_Main_Blur.jpg") repeat top left fixed;
+	padding:0 0 0 0;
+    margin:0 0 0 0;
+    position: absolute;
+	-webkit-background-size: cover coverx;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: Eurostile, Arial;
     color: #fff !important;
     text-shadow: 0px 0px .7em #fff;
+    font-size: 2em;
 }
 
 #splashLogo {
