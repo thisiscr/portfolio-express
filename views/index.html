@@ -32,17 +32,21 @@
 		mw.style.marginTop = (-1*(mw.offsetHeight/2))+'px';
 
 		var ml = document.getElementById('mSplashLogo');
-		// w = ml.offsetWidth
-		// h = ml.offsetHeight
-		// if (w < h) {
-		// 	// width less tahn height
-		// 	h = w*1.3+'px';
-		// } else {
-		// 	// width more than height
-		// 	w = h*.769+'px';
-		// }
-		// ml.offsetWidth = w;
-		// ml.offsetHeight = h;
+		w = ml.offsetWidth;
+		h = ml.offsetHeight;
+		console.log('width '+w)
+		console.log('height '+h)
+		if (w < h) {
+			// width less tahn height
+			h = w*1.3;
+		} else {
+			// width more than height
+			w = h*0.769;
+		}
+		console.log('width '+w)
+		console.log('height '+h)
+		ml.style.width = w+'px';
+		ml.style.height = h+'px';
 
 		ml.style.marginLeft = (-1*(ml.offsetWidth/2))+'px';
 		// ml.style.marginTop = (-1*(ml.offsetHeight/2))+'px';
