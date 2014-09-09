@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery frameColor="0x787878" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
-   <image>
+<image>
+   <url>/../images/UX_Gallery/emusic.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal<br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Summer 2014<br/><font color="#cfcfcf">Github:</font> <a href="https://github.com/thisiscr/sampleWork/blob/master/emusic_ux_analysis_suggestions.pdf?raw=true"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Quick analysis/suggestions for emusic contact page. Download to see solutions!</font>]]></caption>
+   <width>750</width>
+   <height>465</height>
+</image>
+<image>
    <url>/../images/UX_Gallery/pwire.jpg</url>
-   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a><br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Summer 2014<br/><font color="#cfcfcf">Github:</font> <a href="#"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Wireframe developed for this portfolio website </font>]]></caption>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a><br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Summer 2014<br/><font color="#cfcfcf">Github:</font> <a href="https://github.com/thisiscr/sampleWork/blob/master/Work.zip?raw=true"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Wireframe developed for this portfolio website </font>]]></caption>
    <width>700</width>
    <height>465</height>
 </image>
 <image>
    <url>/../images/UX_Gallery/uoc.jpg</url>
-   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a> <br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="#"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Fully clickable prototype utilizing omnigraffle actions tab. Proposed solution based upon competetive analysis of GWU and Harvard U course catalogs. Feedback also garnered from user interviews regarding use of competetor's solutions. </font>]]></caption>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a> <br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="https://github.com/thisiscr/sampleWork/blob/master/Work.zip?raw=true"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Fully clickable prototype utilizing omnigraffle actions tab. Proposed solution based upon competetive analysis of GWU and Harvard U course catalogs. Feedback also garnered from user interviews regarding use of competetor's solutions. </font>]]></caption>
    <width>650</width>
    <height>450</height>
 </image>
 <image>
    <url>/../images/UX_Gallery/labelbox.jpg</url>
-   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a> <br/><font color="#cfcfcf">Made With:</font> Hype & Javascript <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="#"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Fully funtional prototype of several UI enhancements to the original Labelbox mobile application. Made in Tumult Hype with embedded javscript. </font>]]></caption>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a> <br/><font color="#cfcfcf">Made With:</font> Hype & Javascript <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="https://github.com/thisiscr/sampleWork/blob/master/Work.zip?raw=true"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> Fully funtional prototype of several UI enhancements to the original Labelbox mobile application. Made in Tumult Hype with embedded javscript. </font>]]></caption>
    <width>650</width>
    <height>450</height>
 </image>
 <image>
    <url>/../images/UX_Gallery/ebay.jpg</url>
-   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a>  <br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="#"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> UX teardown of ebay's interations, within a commerce context. Wires were done in omnigraffle, with the PDF export available on github. </font>]]></caption>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> <a href="https://generalassemb.ly/education/user-experience-design"><u>General Assembly UXD</u></a>  <br/><font color="#cfcfcf">Made With:</font> Omnigraffle <br/><font color="#cfcfcf">Date:</font> Spring 2014 <br/><font color="#cfcfcf">Github:</font> <a href="https://github.com/thisiscr/sampleWork/blob/master/Work.zip?raw=true"><u>Download</u></a> <br/><font color="#cfcfcf">Overview:</font> UX teardown of ebay's interations, within a commerce context. Wires were done in omnigraffle, with the PDF export available on github. </font>]]></caption>
    <width>750</width>
    <height>450</height>
 </image>
