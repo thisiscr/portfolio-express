@@ -667,6 +667,7 @@ h1 {
 #wrapDiv {
 	position: absolute;
 	width: auto;
+	height: auto;
 	padding: 2em;
 	/*margin-top: 1em;*/
 	-webkit-border-radius:1em;
