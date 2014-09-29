@@ -51,6 +51,7 @@ function dynamics() {
     d = .75*d;
     // af.setAttribute("style","height:"d+"px");
     hs.style.height = d+"px";
+    document.getElementById('wrapDiv').style.height = d+"px";
   }
 
   //reposition current stats bars dynamically
