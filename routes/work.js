@@ -6,6 +6,26 @@ router.get('/:id1/:id2', function(req, res) {
 	id2 = req.params.id2;
 	selected = "color:white;";
 
+	var fullMenu = [
+		{menuName:"TECHNICAL", mStyle:"", defaultLink:"/work/technical/code",
+			sb:[
+				{menuName:"CODE", mStyle:selected, link:"/work/technical/code", gallery:"code_gallery.xml"}, 
+			]
+		}, 
+	    {menuName:"VISUAL", mStyle:"", defaultLink:"/work/visual/ux_design",
+	    	sb:[
+				{menuName:"UX DESIGN", mStyle:"", link:"/work/visual/ux_design", gallery:"ux_gallery.xml"}, 
+	    		{menuName:"GRAPHIC DESIGN", mStyle:"", link:"/work/visual/graphic_design", gallery:"graphics_gallery.xml"}, 
+			]
+		},
+	    {menuName:"AUDIBLE", mStyle:"", defaultLink:"/work/audible/beats",
+	    	sb:[
+				{menuName:"SOUNDS", mStyle:"", link:"/work/audible/sounds"}, 
+	    		{menuName:"BEATS", mStyle:"", link:"/work/audible/beats"}, 
+			]
+		}, 
+	];
+
 	var tpitms = [
 	    {menuName:"TECHNICAL", mStyle:"", defaultLink:"/work/technical/code"}, 
 	    {menuName:"VISUAL", mStyle:"", defaultLink:"/work/visual/ux_design"},
@@ -59,6 +79,7 @@ router.get('/:id1/:id2', function(req, res) {
 						topItems: tpitms,
 						subItems: sbitms,
 						gallery:glly,
+						fullMenuConfig:fullMenu,
 					});
 });
 

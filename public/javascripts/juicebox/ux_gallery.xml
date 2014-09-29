@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+  <image imageURL="/../images/UX_Gallery/ebay.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/ebay.jpg"
+	linkURL="/../images/UX_Gallery/ebay.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/ebay.jpg"
+
+>
+    <title><![CDATA[ebay]]></title>
+    <caption><![CDATA[Ebay UX Issues analysis]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/labelbox.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/labelbox.jpg"
+	linkURL="/../images/UX_Gallery/labelbox.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/labelbox.jpg">
+    <title><![CDATA[labelbox]]></title>
+    <caption><![CDATA[labelbox Hype prototype]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/pwire.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/pwire.jpg"
+	linkURL="/../images/UX_Gallery/pwire.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/pwire.jpg">
+    <title><![CDATA[pwire]]></title>
+    <caption><![CDATA[Portfolio Skethces & Omnigraffle wireframe]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/uoc.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/uoc.jpg"
+	linkURL="/../images/UX_Gallery/uoc.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/uoc.jpg">
+    <title><![CDATA[uoc]]></title>
+    <caption><![CDATA[University of College Omnigraffle wire]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/youtube_mobile_analysis.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/youtube_mobile_analysis.jpg"
+	linkURL="/../images/UX_Gallery/youtube_mobile_analysis.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/youtube_mobile_analysis.jpg"
+>
+ <title><![CDATA[youtube_mobile_analysis]]></title>
+    <caption><![CDATA[youtube mobile UX analysis]]></caption>
+ </image>
+   <image imageURL="/../images/UX_Gallery/emusic.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/emusic.jpg"
+	linkURL="/../images/UX_Gallery/emusic.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/emusic.jpg">
+    <title><![CDATA[emusic]]></title>
+    <caption><![CDATA[emusic UX analysis]]></caption>
+  </image>
+</juiceboxgallery>

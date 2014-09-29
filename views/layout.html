@@ -4,63 +4,78 @@
     <meta charset="utf-8">
     <title>{{title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/col.css' />
+    <link rel='stylesheet' href='/stylesheets/2cols.css' />
+    <link rel='stylesheet' href='/stylesheets/3cols.css' />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="/javascripts/plugins.js">
+      //Detect Plugin (Flash, Java, RealPlayer etc) script- By Frederic (fw4@tvd.be)
+      //Visit http://javascriptkit.com for this script and more
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </head>
 
   <body id="mainBGShade">
     <!-- <div id="mainBGShade"> -->
-      <div id="topMainContainer">
-        <div id="topLeftHolder">
-          <div id="mainLogo"></div>
-          <div id="separator"></div>
-          <ul class="mainNav">
-              <li><a href="/about" style={{aboutSelect}}>ABOUT</a></li>
-              <li><a href="/work/visual/ux_design" style={{workSelect}}>WORK</a></li>
-              <li><a href="/contact" style={{contactSelect}}>CONTACT</a></li>
-          </ul>
+      <div class="section group">
+        <div class="col span_1_of_2">
+          <div id="topLeftHolder">
+            <div id="mainLogo"></div>
+            <div id="separator"></div>
+            <ul class="mainNav">
+                <li><a href="/about" style={{aboutSelect}}>ABOUT</a></li>
+                <li><a href="/work/visual/ux_design" style={{workSelect}}>WORK</a></li>
+                <li><a href="/contact" style={{contactSelect}}>CONTACT</a></li>
+            </ul>
+          </div>
         </div>
-        <div id="topRightHolder">
-          <div id="content">
-            <div id="tva">
-              <div id="tvaWrapper">
-                <div class="row vertGrad" id="tech"></div>
-                <div class="row vertGrad" id="vis"></div>
-                <div class="row rowLast vertGrad" id="aud"></div>
-                <br class="clear"/>
-                <div class="row">T</div>
-                <div class="row">V</div>
-                <div class="row rowLast">A</div>
-                <br class="clear"/>
+        <div class="col span_1_of_2">
+          <div id="topRightHolder">
+              <div id="tva">
+                  <div class="row rowFirst vertGrad" id="tech"></div>
+                  <div class="row vertGrad" id="vis"></div>
+                  <div class="row rowLast vertGrad" id="aud"></div>
+                  <br class="clear"/>
+                  <div class="row rowFirst">T</div>
+                  <div class="row">V</div>
+                  <div class="row rowLast">A</div>
               </div>
-            </div>
-            <div id="curStatsTxt">CURRENT STATS</div>
+              <div id="curStatsTxt">CURRENT STATS</div>
           </div>
         </div>
       </div>
-      <br class="clear"/>
       <div id="whiteContainer">
         <div id="blackContainer">
             <div id="left"></div>
             <div id="middle">
+                <a href="#" id="topRes" style="color: #FFFFFF;">
+                  {{#topItems}}
+                    {{#if mStyle}}
+                      {{toUpperCase menuName}}
+                    {{/if}}
+                  {{/topItems}}
+                </a>
                 <ul id="top" class="topContentNav">
                   {{#each topItems}}
                   <li><a href="{{this.defaultLink}}" style={{this.mStyle}}>{{this.menuName}}</a></li>
-                {{/each}}
+                  {{/each}}
                 </ul>
             </div>
             <div id="right"></div>
             <div id="greyContainer">
               <div id="subL">
-                <a href="https://www.facebook.com/CraigBrown16" style="padding-left:5%;">
+                <a class="socialLink" href="https://www.facebook.com/CraigBrown16" style="padding-left:5%;">
                   <div class="social">&#62220;</div>
                 </a>
-                <a href="http://www.linkedin.com/pub/craig-brown/21/b56/785/">
+                <a class="socialLink" href="http://www.linkedin.com/pub/craig-brown/21/b56/785/">
                   <div class="social">&#62232;</div>
                 </a>
-                <a href="#">
+                <a class="socialLink" href="#">
                   <div class="social">&#62280;</div>
                 </a>
               </div>
@@ -80,46 +95,49 @@
         </div>
       </div>
       <br class="clear"/>
-      <!-- <div id="stage"> -->
+      <!-- Nav bar markup (mobile) -->
+      <nav role="navigation" class="navbar navbar-inverse" id="nvBar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand" id="subRes" style="color: #FFFFFF;">
+                  {{#subItems}}
+                    {{#if mStyle}}
+                      {{menuName}}
+                    {{/if}}
+                  {{/subItems}}
+                </a>
+            </div>
+            <!-- Cascade full menu TVA options -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  {{#fullMenuConfig}}
+                  <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="defaultLink">{{menuName}} <b class="caret"></b></a>
+                      <ul role="menu" class="dropdown-menu">
+                        {{#sb}}
+                          <li><a href="{{link}}">{{menuName}}</a></li>
+                        {{/sb}}
+                      </ul>
+                    </li>
+                    {{/fullMenuConfig}}
+                </ul>
+            </div>
+        </nav> 
+
+      <!-- main content stage -->
     	   {{{body}}}
-      <!-- </div> -->
+
       <br class="clear"/>
       <div id="footer">
         <p id="footerFormat">Copyright © Craig Brown 2014.  All Rights Reserved.</p>
       </div>
     <!-- </div>  -->
-    <script >
-      //center various elements dynamically
-      var sub = document.getElementById('sub');
-      sub.style.marginLeft = (-1*(sub.offsetWidth/2))+'px';
-
-      var tp = document.getElementById('top');
-      tp.style.marginLeft = (-1*(tp.offsetWidth/2))+'px';
-
-      var ft = document.getElementById('footerFormat');
-      ft.style.marginLeft = (-1*(ft.offsetWidth/2))+'px';
-
-      //reposition current stats bars dynamically
-      var t = document.getElementById('tech');
-      var v = document.getElementById('vis');
-      var a = document.getElementById('aud');
-      var th = t.offsetHeight
-      var vh = v.offsetHeight
-      var ah = a.offsetHeight
-      console.log((th-vh))
-      v.style.marginTop = (th - vh)+'px';
-      a.style.marginTop = (th - ah)+'px';
-      var tvaw = document.getElementById('tvaWrapper');
-      tvaw.style.marginLeft = (-1*(tvaw.offsetWidth/2))+'px';
-
-      // var dis = $('#footer').offset().top - $('#whiteContainer').offset().top
-
-      // console.log("this is the distance: "+dis)
-      // var st = document.getElementById('stage');  
-      // console.log('st height b4 '+st.style.clientHeight ); 
-      // st.style.clientHeight = 0.3*dis+'px';  
-      // console.log('st height after '+st.style.clientHeight );  
-
-    </script>
+    <script src="/javascripts/dynamics.js"></script>
   </body>
 </html>

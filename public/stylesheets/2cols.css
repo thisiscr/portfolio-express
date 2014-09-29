@@ -1,0 +1,81 @@
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 680 PIXELS */
+
+@media only screen and (max-width: 680px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2:nth-child(2n) {
+		width: 49.2%;
+		display:none;
+	}
+
+	#mainLogo {
+		width: 11.5em;
+		height: 4em;
+		margin-top: .2em;
+	}
+
+	.topContentNav li {
+		display: none;
+		font-size: 1.5em;
+		padding-right: .4em;
+	}
+
+	.subContentNav li {
+		display: none;
+	}
+
+	#footerFormat {
+		font-size: .8em;
+		white-space: nowrap;
+	}
+
+	.navbar-inverse {
+		display: block;
+	}
+
+	#topRes {
+		font-size: 40px;
+		top: 50%;
+		margin-top: -.45em;
+		left: 50%;
+	    white-space: nowrap;
+	    position: absolute;
+	    text-align: center;
+		display: block;
+		text-decoration: none;
+	}
+
+	#flashcontent {
+		display:none;
+	}
+
+	#juicebox-container {
+		display:block;
+	}
+
+	#getInTouch {
+		display: none;
+	}
+
+	#cform {
+		padding-top: 1em;
+		width: 90%;
+	}
+
+
+}

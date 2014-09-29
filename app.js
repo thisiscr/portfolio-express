@@ -14,6 +14,11 @@ var app = express();
 
 var hbs = require('hbs');
 
+// Register upercase helper for handlebars
+hbs.registerHelper('toUpperCase', function(str) {
+  return str.toUpperCase();
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'hjs');

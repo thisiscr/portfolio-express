@@ -1,16 +1,22 @@
-<div class="centeredContent"> 
-	<form name="contactForm" method="post" action="/contact">
-		<h1>{{header}} </h1>
-		{{#if displayForm}}
-			<input class="inputForm" style="margin-top:2%;" type="text" placeholder="{{email}}" id="email" name="email"> </input>
-			<br class="clear"/>
-			<div class="err">{{err}}</div>
-			<br class="clear"/>
-			<input class="inputForm" type="text" placeholder="Subject" name="subject" id="subject"> </input>
-			 <br class="clear"/>
-			<textarea class="areaForm" placeholder="Your Message" id="message" name="message"></textarea>
-			<br class="clear"/>
-			<input type="submit" class="social" id="send" value='SEND'></div>
-		{{/if}}
-	</form>
+<script type="text/javascript">
+	document.getElementById("nvBar").style.display="none";
+</script>
+<!-- <div class="centeredContent">  -->
+<div class="section group">
+	<div class="col span_2_of_2">
+		<form name="contactForm" method="post" action="/contact" id="cform">
+			<h1 id="getInTouch">{{header}} </h1>
+			{{#if displayForm}}
+				<input class="inputForm" style="margin-top:2%;" type="text" placeholder="{{email}}" id="email" name="email"> </input>
+				<br class="clear"/>
+				<div class="err">{{err}}</div>
+				<br class="clear"/>
+				<input class="inputForm" type="text" placeholder="Subject" name="subject" id="subject"> </input>
+				 <br class="clear"/>
+				<textarea class="areaForm" placeholder="Your Message" id="message" name="message"></textarea>
+				<br class="clear"/>
+				<input type="submit" class="social" id="send" value='SEND'></div>
+			{{/if}}
+		</form>
+	</div>
 </div>

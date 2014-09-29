@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+  <image imageURL="/../images/Code_Gallery/CowsNSpace.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/CowsNSpace.jpg"
+	linkURL="/../images/Code_Gallery/CowsNSpace.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/CowsNSpace.jpg"
+
+>
+    <title><![CDATA[CowsNSpace]]></title>
+    <caption><![CDATA[OpenGL/C++ first person object viewer]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/gwu.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/gwu.jpg"
+	linkURL="/../images/Code_Gallery/gwu.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/gwu.jpg">
+    <title><![CDATA[gwu]]></title>
+    <caption><![CDATA[Microsoft Surface Projects for the GWU Instructional Tech Lab]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/jpm.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/jpm.jpg"
+	linkURL="/../images/Code_Gallery/jpm.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/jpm.jpg">
+    <title><![CDATA[jpm]]></title>
+    <caption><![CDATA[Securities Pricing and Analysitcs software (front and back end) for JPMorgan]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/labelbox.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/labelbox.jpg"
+	linkURL="/../images/Code_Gallery/labelbox.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/labelbox.jpg">
+    <title><![CDATA[labelbox]]></title>
+    <caption><![CDATA[Funtional prototype for Labelbox enhancements]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/site.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/site.jpg"
+	linkURL="/../images/Code_Gallery/site.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/site.jpg">
+    <title><![CDATA[Portfolio site]]></title>
+    <caption><![CDATA[Responsive, Express.js web portfolio]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/thermlast.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/thermlast.jpg"
+	linkURL="/../images/Code_Gallery/thermlast.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/thermlast.jpg">
+    <title><![CDATA[thermlast]]></title>
+    <caption><![CDATA[PHP donations thermometer]]></caption>
+  </image>
+  <image imageURL="/../images/Code_Gallery/VizTouchWeb.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/VizTouchWeb.jpg"
+	linkURL="/../images/Code_Gallery/VizTouchWeb.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/VizTouchWeb.jpg">
+    <title><![CDATA[VizTouchWeb]]></title>
+    <caption><![CDATA[Published (TEI 2012) 3D printing HCI research]]></caption>
+  </image>
+</juiceboxgallery>

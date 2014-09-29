@@ -1,20 +1,64 @@
 <script type="text/javascript" src="/../swf/autoviewer/swfobject.js"></script>
+<script src="/../javascripts/juicebox/jbcore/juicebox.js"></script>
 <div id="flashcontent" style="height:70%; width:100%;">AutoViewer requires JavaScript and the Flash Player. 
 <a href="http://www.macromedia.com/go/getflashplayer/">Get Flash.</a></div>	
+<div id="juicebox-container"></div>
 <script type="text/javascript">
-	var fo = new SWFObject("/../swf/autoviewer/autoviewer.swf", "viewer", "100%", "100%", "8", "#181818");
-	fo.addVariable("xmlURL", "/../swf/autoviewer/"+"{{gallery}}");
-	fo.addParam("wmode", "transparent");
-	gal = "{{gallery}}"
-	// if gallery, display carousel, else display 'coming soon'
-	if(gal != "") {
-		fo.write("flashcontent");	
-	} else {
-		var fl = document.getElementById('flashcontent');
-		fl.innerHTML = '<br class="clear"/><ul id="comingSoon" class="topContentNav subContentNav"><li><a href="#" style="color:white;">Coming Soon</a></li></ul>'
+	var mq = window.matchMedia("screen and (max-width: 680px)");
+	var flashSupport = true;
+	var gal = "{{gallery}}"
+	var jb = null;
+	comingSoonHTML = '<br class="clear"/><ul id="comingSoon" class="topContentNav subContentNav"><li><a href="#" style="color:white;">Coming Soon</a></li></ul>'
+	sComingSoonHTML = '<br class="clear"/><ul id="comingSoon" ><li><a href="#" style="color:white;text-decoration:none;">Coming Soon</a></li></ul>'
 
+	function centerComingSoon() {
 		var cs = document.getElementById('comingSoon');
       	cs.style.marginLeft = (-1*(cs.offsetWidth/2))+'px';
+	}
+
+	function createJuiceBoxGallery() {
+		//should serve for mobile
+		jb = new juicebox({
+		containerId: "juicebox-container",
+		galleryWidth: "100%",
+		galleryHeight: "50%",
+		backgroundColor: "rgba(0,0,0,.6)",
+		configUrl: "/../javascripts/juicebox/"+gal,
+		});
+
+	}
+
+	if (pluginlist.indexOf("Flash") == -1) { flashSupport = false;}
+
+	if (!mq.matches && gal != "") {
+		// Set up autoviewer for big screens
+		console.log('Large device detected')
+		var fo = new SWFObject("/../swf/autoviewer/autoviewer.swf", "viewer", "100%", "100%", "8", "#181818");
+		fo.addVariable("xmlURL", "/../swf/autoviewer/"+gal);
+		fo.addParam("wmode", "transparent");
+		fo.write("flashcontent");
+
+		if (!flashSupport) {
+			// large device but no flash support
+			document.getElementById("flashcontent").style.display="none";
+			createJuiceBoxGallery();
+		}
+	} else if (mq.matches && gal != "") {
+		// Set up juciebox for small mobile
+		console.log('Small device detected')
+		createJuiceBoxGallery();
+	} else if (!mq.matches){
+		// Nothing to show - big
+		console.log('Large device - coming soon')
+		var fl = document.getElementById('flashcontent');
+		fl.innerHTML = comingSoonHTML;
+		centerComingSoon()
+	} else {
+		// Nothing to show - small/mobile
+		console.log('Small device - coming soon')
+		var jc = document.getElementById('juicebox-container');
+		jc.innerHTML = sComingSoonHTML;
+		centerComingSoon()
 	}
 
 </script>

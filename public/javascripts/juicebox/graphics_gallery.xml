@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	resizeOnImport="true"
+	galleryTitle=""
+	backgroundColor="rgba(0,0,0,.4)"
+	useThumbDots="false"
+	showThumbsButton="true"
+
+>
+  <image imageURL="/../images/Graphics_Gallery/abesfire.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/abesfire.jpg"
+	linkURL="/../images/Graphics_Gallery/abesfire.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/abesfire.jpg">
+    <title><![CDATA[abesfire]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/CBBackWeb.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/CBBackWeb.jpg"
+	linkURL="/../images/Graphics_Gallery/CBBackWeb.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/CBBackWeb.jpg">
+    <title><![CDATA[CBBackWeb]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/hirosuepaint.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/hirosuepaint.jpg"
+	linkURL="/../images/Graphics_Gallery/hirosuepaint.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/hirosuepaint.jpg">
+    <title><![CDATA[hirosuepaint]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/Infinita_Emblem.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/Infinita_Emblem.jpg"
+	linkURL="/../images/Graphics_Gallery/Infinita_Emblem.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/Infinita_Emblem.jpg">
+    <title><![CDATA[Infinita_Emblem]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/infinita_kit.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/infinita_kit.jpg"
+	linkURL="/../images/Graphics_Gallery/infinita_kit.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/infinita_kit.jpg">
+    <title><![CDATA[infinita_kit]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/Kirastylepeg.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/Kirastylepeg.jpg"
+	linkURL="/../images/Graphics_Gallery/Kirastylepeg.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/Kirastylepeg.jpg">
+    <title><![CDATA[Kirastylepeg]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/mixedmedia.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/mixedmedia.jpg"
+	linkURL="/../images/Graphics_Gallery/mixedmedia.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/mixedmedia.jpg">
+    <title><![CDATA[mixedmedia]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/New_Site_Logo.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/New_Site_Logo.jpg"
+	linkURL="/../images/Graphics_Gallery/New_Site_Logo.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/New_Site_Logo.jpg">
+    <title><![CDATA[New_Site_Logo]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/riotsandpoetry.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/riotsandpoetry.jpg"
+	linkURL="/../images/Graphics_Gallery/riotsandpoetry.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/riotsandpoetry.jpg">
+    <title><![CDATA[riotsandpoetry]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/scratchboard.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/scratchboard.jpg"
+	linkURL="/../images/Graphics_Gallery/scratchboard.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/scratchboard.jpg">
+    <title><![CDATA[scratchboard]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/Site_BG_Main.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/Site_BG_Main.jpg"
+	linkURL="/../images/Graphics_Gallery/Site_BG_Main.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/Site_BG_Main.jpg">
+    <title><![CDATA[Site_BG_Main]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/smileface.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/smileface.jpg"
+	linkURL="/../images/Graphics_Gallery/smileface.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/smileface.jpg">
+    <title><![CDATA[smileface]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/thereturn.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/thereturn.jpg"
+	linkURL="/../images/Graphics_Gallery/thereturn.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/thereturn.jpg">
+    <title><![CDATA[thereturn]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="/../images/Graphics_Gallery/thermlast.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/thermlast.jpg"
+	linkURL="/../images/Graphics_Gallery/thermlast.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Graphics_Gallery/Graphics_Gallery/thermlast.jpg">
+    <title><![CDATA[thermlast]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

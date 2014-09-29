@@ -2,9 +2,9 @@
 <gallery frameColor="0x787878" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
 <image>
    <url>/../images/Code_Gallery/site.jpg</url>
-   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Node.js, Express.js, Javascript, HTML (handlebars), CSS <br/><font color="#cfcfcf">Date:</font> Summer 2014 <br/><font color="#cfcfcf">Overview:</font> Developed this portfolio site from scratch using Express.js </font>]]></caption>
-   <width>650</width>
-   <height>450</height>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf">Made For:</font> Personal <br/><font color="#cfcfcf">Made With:</font> Node.js, Express.js, Javascript, HTML (handlebars), CSS <br/><font color="#cfcfcf">Date:</font> Summer 2014 <br/><font color="#cfcfcf">Overview:</font> Developed this responsive portfolio site from scratch using Express.js </font>]]></caption>
+   <width>950</width>
+   <height>550</height>
 </image>
 <image>
    <url>/../images/Code_Gallery/labelbox.jpg</url>
