@@ -47,11 +47,12 @@ function dynamics() {
 
   var hs = document.getElementById('headshot');
   if (hs) {
-    var d = $('#footer').offset().top - $('#whiteContainer').offset().top;
-    d = .75*d;
+    // var d = $('#footer').offset().top - $('#whiteContainer').offset().top;
+    var h = document.getElementById('aboutTxt').offsetHeight
+    // d = .75*d;
+    h = .90*h;
     // af.setAttribute("style","height:"d+"px");
-    hs.style.height = d+"px";
-    document.getElementById('wrapDiv').style.height = d+"px";
+    hs.style.height = h+"px";
   }
 
   //reposition current stats bars dynamically
