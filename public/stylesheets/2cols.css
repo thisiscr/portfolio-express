@@ -77,5 +77,25 @@
 		width: 90%;
 	}
 
+	#splashLogo {
+		width: 20em;
+		margin-left: -10em;
+		height: 9.5em;
+		left: 50%;
+		top: 30%;
+	}
+ 
+	#splashTVA {
+		-webkit-background-size: 100% 100%;
+	    -moz-background-size: 100% 100%;
+	    -o-background-size: 100% 100%; 
+	    background-size: 100% 100%;
+		width: 25em;
+		height: 2.6em;
+		left: 50%;
+		margin-left: -13.5em;
+		top: 30%;
+	}
+
 
 }
