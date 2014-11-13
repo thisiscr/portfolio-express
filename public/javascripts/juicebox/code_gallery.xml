@@ -1,62 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery>
-  <image imageURL="/../images/Code_Gallery/CowsNSpace.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/CowsNSpace.jpg"
-	linkURL="/../images/Code_Gallery/CowsNSpace.jpg"
+  <image imageURL="/../images/Code_Gallery/model_hhp_red.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_hhp_red.jpg"
+	linkURL="/../images/Code_Gallery/model_hhp_red.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/CowsNSpace.jpg"
-
->
-    <title><![CDATA[CowsNSpace]]></title>
-    <caption><![CDATA[OpenGL/C++ first person object viewer]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_hhp_red.jpg">
+    <title><![CDATA[UX/UI Development]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/gwu.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/gwu.jpg"
-	linkURL="/../images/Code_Gallery/gwu.jpg"
+  <image imageURL="/../images/Code_Gallery/model_port.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_port.jpg"
+	linkURL="/../images/Code_Gallery/model_port.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/gwu.jpg">
-    <title><![CDATA[gwu]]></title>
-    <caption><![CDATA[Microsoft Surface Projects for the GWU Instructional Tech Lab]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_port.jpg">
+    <title><![CDATA[Web Portfolio]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/jpm.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/jpm.jpg"
-	linkURL="/../images/Code_Gallery/jpm.jpg"
+  <image imageURL="/../images/Code_Gallery/model_umbc.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_umbc.jpg"
+	linkURL="/../images/Code_Gallery/model_umbc.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/jpm.jpg">
-    <title><![CDATA[jpm]]></title>
-    <caption><![CDATA[Securities Pricing and Analysitcs software (front and back end) for JPMorgan]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_umbc.jpg">
+    <title><![CDATA[DREU HCI Research (published)]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/labelbox.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/labelbox.jpg"
-	linkURL="/../images/Code_Gallery/labelbox.jpg"
+  <image imageURL="/../images/Code_Gallery/model_jpm.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_jpm.jpg"
+	linkURL="/../images/Code_Gallery/model_jpm.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/labelbox.jpg">
-    <title><![CDATA[labelbox]]></title>
-    <caption><![CDATA[Funtional prototype for Labelbox enhancements]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_jpm.jpg">
+    <title><![CDATA[Securities Pricing Software]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/site.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/site.jpg"
-	linkURL="/../images/Code_Gallery/site.jpg"
+  <image imageURL="/../images/Code_Gallery/model_gwu.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_gwu.jpg"
+	linkURL="/../images/Code_Gallery/model_gwu.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/site.jpg">
-    <title><![CDATA[Portfolio site]]></title>
-    <caption><![CDATA[Responsive, Express.js web portfolio]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_gwu.jpg">
+    <title><![CDATA[3D Room Viewer]]></title>
+    <caption><![CDATA[]]></caption>
+   <image imageURL="/../images/Code_Gallery/model_lblbx.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_lblbx.jpg"
+	linkURL="/../images/Code_Gallery/model_lblbx.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_lblbx.jpg">
+    <title><![CDATA[LabelBox Prototype]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/thermlast.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/thermlast.jpg"
-	linkURL="/../images/Code_Gallery/thermlast.jpg"
-	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/thermlast.jpg">
-    <title><![CDATA[thermlast]]></title>
-    <caption><![CDATA[PHP donations thermometer]]></caption>
   </image>
-  <image imageURL="/../images/Code_Gallery/VizTouchWeb.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/VizTouchWeb.jpg"
-	linkURL="/../images/Code_Gallery/VizTouchWeb.jpg"
+  <image imageURL="/../images/Code_Gallery/model_surface.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_surface.jpg"
+	linkURL="/../images/Code_Gallery/model_surface.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/VizTouchWeb.jpg">
-    <title><![CDATA[VizTouchWeb]]></title>
-    <caption><![CDATA[Published (TEI 2012) 3D printing HCI research]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/Code_Gallery/Code_Gallery/model_surface.jpg">
+    <title><![CDATA[MS Surface Projects]]></title>
+    <caption><![CDATA[]]></caption>
   </image>
 </juiceboxgallery>

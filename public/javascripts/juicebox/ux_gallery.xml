@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery>
-  <image imageURL="/../images/UX_Gallery/ebay.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/ebay.jpg"
-	linkURL="/../images/UX_Gallery/ebay.jpg"
+  <image imageURL="/../images/UX_Gallery/model_hhp_red.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_hhp_red_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_hhp_red.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/ebay.jpg"
-
->
-    <title><![CDATA[ebay]]></title>
-    <caption><![CDATA[Ebay UX Issues analysis]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_hhp_red.jpg">
+    <title><![CDATA[UX/UI Development]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
   </image>
-  <image imageURL="/../images/UX_Gallery/labelbox.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/labelbox.jpg"
-	linkURL="/../images/UX_Gallery/labelbox.jpg"
+  <image imageURL="/../images/UX_Gallery/model_port.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_port_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_port.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/labelbox.jpg">
-    <title><![CDATA[labelbox]]></title>
-    <caption><![CDATA[labelbox Hype prototype]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_port.jpg">
+    <title><![CDATA[Web Portfolio]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
   </image>
-  <image imageURL="/../images/UX_Gallery/pwire.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/pwire.jpg"
-	linkURL="/../images/UX_Gallery/pwire.jpg"
+  <image imageURL="/../images/UX_Gallery/model_umbc.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_umbc_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_umbc.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/pwire.jpg">
-    <title><![CDATA[pwire]]></title>
-    <caption><![CDATA[Portfolio Skethces & Omnigraffle wireframe]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_umbc.jpg">
+    <title><![CDATA[DREU HCI Research (published)]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
   </image>
-  <image imageURL="/../images/UX_Gallery/uoc.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/uoc.jpg"
-	linkURL="/../images/UX_Gallery/uoc.jpg"
+   <image imageURL="/../images/UX_Gallery/model_lblbx.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_lblbx_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_lblbx.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/uoc.jpg">
-    <title><![CDATA[uoc]]></title>
-    <caption><![CDATA[University of College Omnigraffle wire]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_lblbx.jpg">
+    <title><![CDATA[LabelBox Prototype]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
   </image>
-  <image imageURL="/../images/UX_Gallery/youtube_mobile_analysis.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/youtube_mobile_analysis.jpg"
-	linkURL="/../images/UX_Gallery/youtube_mobile_analysis.jpg"
+  <image imageURL="/../images/UX_Gallery/model_surface.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_surface_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_surface.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/youtube_mobile_analysis.jpg"
->
- <title><![CDATA[youtube_mobile_analysis]]></title>
-    <caption><![CDATA[youtube mobile UX analysis]]></caption>
- </image>
-   <image imageURL="/../images/UX_Gallery/emusic.jpg"
-	thumbURL="/../javascripts/juicebox/thumbs/emusic.jpg"
-	linkURL="/../images/UX_Gallery/emusic.jpg"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_surface.jpg">
+    <title><![CDATA[MS Surface Projects]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/model_uoc.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_uoc_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_uoc.jpg"
 	linkTarget="_blank"
-	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/UX_Gallery/emusic.jpg">
-    <title><![CDATA[emusic]]></title>
-    <caption><![CDATA[emusic UX analysis]]></caption>
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_uoc.jpg">
+    <title><![CDATA[UOC Course Catalog - Fictional]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/model_ebay.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_ebay_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_ebay.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_ebay.jpg">
+    <title><![CDATA[Ebay UX Analysis]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
+  </image>
+  <image imageURL="/../images/UX_Gallery/model_emusic.jpg"
+	thumbURL="/../javascripts/juicebox/thumbs/model_emusic_ux.jpg"
+	linkURL="/../images/UX_Gallery/model_emusic.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_emusic.jpg">
+    <title><![CDATA[eMusic UX Analysis]]></title>
+    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
   </image>
 </juiceboxgallery>
