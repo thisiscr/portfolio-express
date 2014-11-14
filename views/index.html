@@ -23,10 +23,10 @@
 		Windows: function() { return navigator.userAgent.match(/IEMobile/i); }, 
 		any: function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } 
 	};
-	// if(isMobile.any()){
-	// 	//redirect to work page
-	// 	window.location = "http://www.thisiscraigbrown.com/work/visual/ux_design";
-	// }
+	if(isMobile.any()){
+		//redirect to work page
+		window.location = "/work/visual/ux_design";
+	}
 
 </script>
 </html>

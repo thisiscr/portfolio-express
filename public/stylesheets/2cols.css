@@ -104,11 +104,11 @@
 		width: 15em;
 		margin-left: -7.5em;
 		height: 7em;
-		top: 30%;
+		top: 40%;
 	}
  
 	#splashTVA {
-		-webkit-background-size: 100% 100%;
+		/*-webkit-background-size: 100% 100%;
 	    -moz-background-size: 100% 100%;
 	    -o-background-size: 100% 100%; 
 	    background-size: 100% 100%;
@@ -116,6 +116,7 @@
 		height: 2em;
 		left: 50%;
 		margin-left: -8em;
-		top: 30%;
+		top: 30%;*/
+		display: none;
 	}
 }
