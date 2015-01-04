@@ -1,3 +1,6 @@
+// TODO: As per interview suggestion, Refactor and improve this code. Most of it can be removed with better centering
+// principles. Might as well do this after picking up backbone.
+
 $(function () {
   dynamics();
 });

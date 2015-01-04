@@ -148,7 +148,7 @@
 	left: 50%;
 	position: relative;
 	display: inline-block;
-	white-space: nowrap
+	white-space: nowrap;
 }
 
 #topRightHolder {
@@ -418,7 +418,7 @@
 	width: 20%;
 	height: 3em;
 	float: left;
-	white-space: nowrap
+	white-space: nowrap;
 
 }
 
