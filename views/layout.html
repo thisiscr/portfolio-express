@@ -4,13 +4,9 @@
     <meta charset="utf-8">
     <title>{{title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO: Reduce link connections, but leave for now, particularly stylesheets, as it makes development easier. Also minify css and js when ready -->
+    <!-- TODO: <Minify css and js when ready -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel='stylesheet' href='/stylesheets/col.css' />
-    <link rel='stylesheet' href='/stylesheets/2cols.css' />
-    <link rel='stylesheet' href='/stylesheets/3cols.css' />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <script src="/javascripts/plugins.js">
@@ -21,11 +17,20 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </head>
 
+  <script type="text/javascript">
+    //global variables used by hype docs and soundcloud gallery
+    window.timelineTime = 0;
+    window.opacityToggle = null;
+    window.opacityToggleBig = null;
+  </script> 
+
   <body id="mainBGShade">
     <!-- <div id="mainBGShade"> -->
       <div class="section group">
-        <div class="col span_1_of_2">
-          <div id="topLeftHolder">
+        <div class="col span_1_of_2" style="position:relative;">
+          <!-- <div id="tlDiv"> -->
+          <div id="topLeftHolder" class="horizCenter">
+            <div id="mainLogoGear"></div>
             <div id="mainLogo"></div>
             <div id="separator"></div>
             <ul class="mainNav">
@@ -35,6 +40,7 @@
             </ul>
           </div>
         </div>
+        <!-- </div> -->
         <div class="col span_1_of_2">
           <div id="topRightHolder">
               <div id="tva">
@@ -49,6 +55,10 @@
               <div id="curStatsTxt">CURRENT STATS</div>
           </div>
         </div>
+      </div>
+      <div id="soundcloudvizlights_hype_container" class="horizCenter" style="position:absolute;overflow:hidden;width:600px;height:400px;">
+          <script type="text/javascript" charset="utf-8" src="/hype/SoundCloud%20Viz%20Lights.hyperesources/soundcloudvizlights_hype_generated_script.js?74528">
+          </script>
       </div>
       <div id="whiteContainer">
         <div id="blackContainer">
@@ -133,7 +143,7 @@
 
       <!-- main content stage -->
     	   {{{body}}}
-
+      
       <br class="clear"/>
       <div id="footer">
         <p id="footerFormat">Copyright © Craig Brown 2014.  All Rights Reserved.</p>

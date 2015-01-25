@@ -9,6 +9,11 @@
 	width: 49.2%;
 }
 
+@media only screen and (max-width: 980px) {
+	#soundcloudvizlights_hype_container {
+		display: none;
+	}
+}
 /*  GO FULL WIDTH AT LESS THAN 680 PIXELS */
 
 @media only screen and (max-width: 680px) {
@@ -97,6 +102,16 @@
 		top: 30%;
 	}
 
+	#mainLogoGear {
+		left: 3.5em;
+		top: .3em;
+		width: 3.8em;
+		height: 3.8em;
+	}
+
+	#topLeftHolder {
+		margin-left: -7%;
+	}
 }
 
 @media only screen and (max-width: 360px) {

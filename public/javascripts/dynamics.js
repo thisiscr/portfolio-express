@@ -20,8 +20,8 @@ function getWindowWidth() {
 
 function dynamics() {
   //center various elements dynamically
-  var tl = document.getElementById('topLeftHolder');
-  tl.style.marginLeft = (-1*(tl.offsetWidth/2))+'px';
+  // var tl = document.getElementById('topLeftHolder');
+  // tl.style.marginLeft = (-1*(tl.offsetWidth/2))+'px';
 
   var sub = document.getElementById('sub');
   sub.style.marginLeft = (-1*(sub.offsetWidth/2))+'px';
@@ -62,10 +62,10 @@ function dynamics() {
   var t = document.getElementById('tech');
   var v = document.getElementById('vis');
   var a = document.getElementById('aud');
-  var th = t.offsetHeight
-  var vh = v.offsetHeight
-  var ah = a.offsetHeight
-  console.log((th-vh))
+  var th = t.offsetHeight;
+  var vh = v.offsetHeight;
+  var ah = a.offsetHeight;
+  console.log((th-vh));
   v.style.marginTop = (th - vh)+'px';
   a.style.marginTop = (th - ah)+'px';
   var tvaw = document.getElementById('tvaWrapper');

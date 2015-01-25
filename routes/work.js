@@ -1,11 +1,42 @@
 var express = require('express');
 var router = express.Router();
+var scwaveform = require('soundcloud-waveform');
+var nodeFirebase = require("firebase");
+
+function syncSoundcloudWavedata() {
+	/* Get waveform data (as array) from the soundcloud uri using 
+		soundcloud waveform api.
+	*/
+	var client_id = 'cf78dd18275501f9645c0f40f7c2dd31';
+	var myFirebaseRef = new nodeFirebase("https://intense-fire-3188.firebaseio.com/");
+	var tracksRef = myFirebaseRef.child("tracks");
+	tracksRef.on("value", function(snapshot) {
+		//this function is called asynchronously!!
+		snapshot.forEach(function(childSnapshot) {
+	  		var key = childSnapshot.key()
+		  	var trackData = childSnapshot.val()
+		  	if (trackData && !trackData.hasOwnProperty('wavedata'))  {
+				var uri = trackData['uri'];
+	  			console.log('Track '+key+' has no wavedata! uri: '+uri);
+		  		try {
+		  			scwaveform(client_id, uri, function(err, wavedata) {
+						if (wavedata){ tracksRef.child(key).update({"wavedata":wavedata});}
+					});
+			  	} catch(err) {
+			  		console.log('Could not fetch wavedata for uri: '+uri);
+			  		console.log(err.message);
+			  	}
+		  	}
+		});
+	});
+}
 
 router.get('/:id1/:id2', function(req, res) {
 	id1 = req.params.id1;
 	id2 = req.params.id2;
 	selected = "color:white;";
 
+	//TODO: clean all this stuff up. Probably can be done better with backbone/express....have to learn backbone first :)
 	var fullMenu = [
 		{menuName:"TECHNICAL", mStyle:"", defaultLink:"/work/technical/code",
 			sb:[
@@ -55,7 +86,7 @@ router.get('/:id1/:id2', function(req, res) {
 		} else if(tpitms[i].menuName == "AUDIBLE") {
 			sbitms = [
 				{menuName:"SOUNDS", mStyle:"", link:"/work/audible/sounds"}, 
-	    		{menuName:"BEATS", mStyle:"", link:"/work/audible/beats"}, 
+	    		{menuName:"BEATS", mStyle:"", link:"/work/audible/beats", gallery:"soundcloud"}, 
 			];
 			for(var x=0; x<sbitms.length; x++) {
 				if(sbitms[x].menuName == id2.toUpperCase()) {
@@ -73,6 +104,10 @@ router.get('/:id1/:id2', function(req, res) {
 		}
 	}
 
+	//sync soundcloud wavedata
+	syncSoundcloudWavedata();
+
+	console.log('Done processing from server.');
 	res.render('work',{title:'Work', 
 						layout:'layout', 
 						workSelect:selected, 

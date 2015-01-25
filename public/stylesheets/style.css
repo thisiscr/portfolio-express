@@ -145,10 +145,10 @@
 
 #topLeftHolder {
 	padding-top: .2em;
-	left: 50%;
 	position: relative;
 	display: inline-block;
 	white-space: nowrap;
+	z-index: 3;
 }
 
 #topRightHolder {
@@ -218,16 +218,38 @@
 #aud {height: 1.3em; margin-right: 0;}
 
 #mainLogo {
-	background:url("../images/New_Site_Logo_Clean.png") no-repeat top left;
+	/*background:url("../images/New_Site_Logo_Clean.png") no-repeat top left;*/
+	background:url("../images/logo_top_layer_gray.png") no-repeat top left;
+	-webkit-transition: all 2s ease-in-out;
+  	-moz-transition: all 2s ease-in-out;
+  	-o-transition: all 2s ease-in-out;
+  	transition: all 2s ease-in-out;
 	-webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+	display: inline-block;
+	position: relative;
 	width: 13.8em;
 	height: 4.2em;
 	margin-right: .8em;
 	float: left;
-	display: inline-block;
+	z-index: 5;
+}
+
+#mainLogoGear {
+	background:url("../images/logo_gear_layer.png") no-repeat top left;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    z-index: 4;
+    width: 4.2em;
+	height: 4.2em;
+	display: inline;
+	float: left;
+	position: relative;
+	left: 4em;
 }
 
 #separator {
@@ -241,8 +263,13 @@
 .mainNav {
 	padding: 0 0 0 .8em;
 	margin: 0;
-    float: left;
+    /*float: left;*/
+    top:0;
+    right:0;
     display: inline-block;
+    z-index: 3;
+    text-align: left;
+    position: relative;
 }
 
 .topContentNav {
@@ -281,6 +308,7 @@
     padding-right: 1.7em;
     margin-top: 0;
     padding-top: 0;
+    z-index: 3;
 }
 
 .subContentNav li {
@@ -393,7 +421,6 @@
 	width: 60%;
 	height: 3.5em;
 	float: left;
-	z-index: 0;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -426,10 +453,10 @@
 	width: 60%;
 	height: 3em;
 	float: left;
-	z-index: 0;
 	position: relative;
 	padding: 0;
 	margin: 0;
+	z-index: 3;
 }
 
 #subR {
@@ -502,16 +529,26 @@
 /*	height: auto;*/
 }
 
+#scTitle {
+	text-align: left; 
+	margin-left:12.5%;
+	display:none;
+}
+
+#smile {display: none;}
+
 #flashcontent {
 	padding-top: 1%;
+	text-align: center;
 }
 
 #juicebox-container {
 	display: none;
-	z-index: 0;
+	/*z-index: 0;*/
 	position: relative;
 	width: 100%;
 	height: 50%;
+	text-align: center;
 }
 
 #footer {
@@ -566,7 +603,7 @@
 	display:inline-block;
 	font-size: 2.5em;
 	position: relative;
-	left: 50%;
+	left: 0%;
 	padding-top: 1em;
 	padding-left: 0;
 	list-style-type: none;
@@ -693,6 +730,75 @@ h1 {
 
 }
 
+#soundcloudvizlights_hype_container {
+	top: -143px;
+	z-index: 1;
+}
+
+#soundcloudvizlightsbig_hype_container{
+	z-index: -1;
+	display: none;
+	position: absolute !important;
+	bottom:0;
+}
+
+.scrollY {
+	overflow-y: auto;
+}
+
+.absPos {
+	position: absolute;
+}
+
+.horizCenter {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
+  	transform: translateX(-50%);
+}
+
+.spinner {
+	animation:spin-constant 5s;
+    -webkit-animation-name: spin-constant;
+    -webkit-animation-duration: 30000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin-constant;
+    -moz-animation-duration: 30000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: spin-constant;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-moz-keyframes spin-constant {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin-constant {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin-constant {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
 ::-webkit-input-placeholder {
 	color: white;
    	text-shadow: 0px 0px .7em #fff;
@@ -755,4 +861,228 @@ h4 {
 	font-size: 1em;
 	position: relative;
 	padding-left: 8%;
+}
+
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: .5% 0 .5% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: .5% 0 .5% 0%;
+	}
+}
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+@media only screen and (max-width: 980px) {
+	#soundcloudvizlights_hype_container {
+		display: none;
+	}
+}
+/*  GO FULL WIDTH AT LESS THAN 680 PIXELS */
+
+@media only screen and (max-width: 680px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2:nth-child(2n) {
+		width: 49.2%;
+		display:none;
+	}
+
+	#mainLogo {
+		width: 11.5em;
+		height: 4em;
+		margin-top: .2em;
+	}
+
+	.topContentNav li {
+		display: none;
+		font-size: 1.5em;
+		padding-right: .4em;
+	}
+
+	.subContentNav li {
+		display: none;
+	}
+
+	#footerFormat {
+		font-size: .8em;
+		white-space: nowrap;
+	}
+
+	.navbar-inverse {
+		display: block;
+	}
+
+	#topRes {
+		font-size: 40px;
+		top: 50%;
+		margin-top: -.45em;
+		left: 50%;
+	    white-space: nowrap;
+	    position: absolute;
+	    text-align: center;
+		display: block;
+		text-decoration: none;
+	}
+
+	#flashcontent {
+		display:none;
+	}
+
+	#juicebox-container {
+		display:block;
+	}
+
+	#getInTouch {
+		display: none;
+	}
+
+	#cform {
+		padding-top: 1em;
+		width: 90%;
+	}
+
+	#splashLogo {
+		width: 20em;
+		margin-left: -10em;
+		height: 9.5em;
+		left: 50%;
+		top: 30%;
+	}
+ 
+	#splashTVA {
+		-webkit-background-size: 100% 100%;
+	    -moz-background-size: 100% 100%;
+	    -o-background-size: 100% 100%; 
+	    background-size: 100% 100%;
+		width: 22em;
+		height: 2.4em;
+		left: 50%;
+		margin-left: -11em;
+		top: 30%;
+	}
+
+	#mainLogoGear {
+		left: 3.5em;
+		top: .3em;
+		width: 3.8em;
+		height: 3.8em;
+	}
+
+	#topLeftHolder {
+		margin-left: -7%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#splashLogo {
+		width: 15em;
+		margin-left: -7.5em;
+		height: 7em;
+		top: 40%;
+	}
+ 
+	#splashTVA {
+		/*-webkit-background-size: 100% 100%;
+	    -moz-background-size: 100% 100%;
+	    -o-background-size: 100% 100%; 
+	    background-size: 100% 100%;
+		width: 16em;
+		height: 2em;
+		left: 50%;
+		margin-left: -8em;
+		top: 30%;*/
+		display: none;
+	}
+}
+
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 680 PIXELS */
+
+@media only screen and (max-width: 680px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+
+	#aboutTxt {
+		width:100%;
+		font-size: .8em;
+	}
+
+	#wrapDiv{display:none;}
+
+	.hideSmall {display:none;}
+
+	h4 {letter-spacing: .4em;}
+
+	#juicebox-container{display: inline-block;}
 }
