@@ -123,7 +123,6 @@
 			  	//completion states separated for consistency
 			  	window.opacityToggle = scGalleryEnum.OFF;
 			  	window.opacityToggleBig = scGalleryEnum.OFF;
-			  	// var speed = 500;
 			  	$('#pressPlay').show(scGalleryEnum.SPEED);
 				$('#smile').hide(scGalleryEnum.SPEED);
 				$('#mainLogoGear').removeClassClass('spinner');
@@ -166,6 +165,7 @@
 
 	if (pluginlist.indexOf("Flash") == -1) { flashSupport = false;}
 
+	//serve up the right content depending on gallery type and device type
 	if (!mq.matches && gal != "") {
 		if (gal == "soundcloud") {
 			$('#flashcontent').removeClass('scrollY').empty()
