@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery frameColor="0x787878" frameWidth="15" imagePadding="20" displayTime="6" enableRightClickOpen="true">
 <image>
+   <url>/../images/Code_Gallery/model_soundcloud.jpg</url>
+   <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
+   <width>700</width>
+   <height>500</height>
+</image>
+<image>
    <url>/../images/Code_Gallery/model_hhp_red.jpg</url>
    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
    <width>700</width>
