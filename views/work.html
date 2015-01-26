@@ -66,7 +66,7 @@
 
 	function createSoundcloudGallery(container) {
 		/*SET UP SOUNDCLOUD GALLERY 
-			container 	: div to containt soundcloud widgets
+			container 	: div to contain soundcloud widgets
 		*/
 
 		//get firebase db ref
@@ -187,8 +187,8 @@
 	} else if (mq.matches && gal != "") {
 		// Set up juciebox for small mobile
 		if (gal == "soundcloud") {
-			$('#flashcontent').removeClass('scrollY').empty()
-			$('#flashcontent').show(); //use this container for sc. Better allows for smooth transitioning
+			//use this container for sc. Better allows for smooth transitioning
+			$('#flashcontent').removeClass('scrollY').empty().show(); 
 			createSoundcloudGallery('flashcontent');
 		} else {
 			console.log('Small device detected');
