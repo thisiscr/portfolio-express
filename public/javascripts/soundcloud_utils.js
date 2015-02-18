@@ -50,8 +50,8 @@ function createSoundcloudGallery(container) {
 		container 	: div to contain soundcloud widgets
 	*/
 
-	//get firebase db ref
 	setOnScroll();
+	//get firebase db ref
 	var myFirebaseRef = new Firebase("https://intense-fire-3188.firebaseio.com/");
 	var snapCache = null;
 
