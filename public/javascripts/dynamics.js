@@ -3,7 +3,7 @@
 
 $(function () {
   dynamics();
-});
+  });
 
 var $window = $(window);
 var timeout;
@@ -50,13 +50,15 @@ function dynamics() {
 
   var hs = document.getElementById('headshot');
   if (hs) {
-    // var d = $('#footer').offset().top - $('#whiteContainer').offset().top;
-    var h = document.getElementById('aboutTxt').offsetHeight
-    // d = .75*d;
+    var h = document.getElementById('aboutTxt').offsetHeight;
     h = .90*h;
-    // af.setAttribute("style","height:"d+"px");
     hs.style.height = h+"px";
   }
+
+  //dynamic repositioning of sc central lights
+  var sc = document.getElementById('soundcloudvizlights_hype_container');
+  var scBottom = $('#footer').offset().top - $('#whiteContainer').offset().top - 134;
+  sc.style.bottom = scBottom+"px";
 
   //reposition current stats bars dynamically
   var t = document.getElementById('tech');
@@ -65,11 +67,8 @@ function dynamics() {
   var th = t.offsetHeight;
   var vh = v.offsetHeight;
   var ah = a.offsetHeight;
-  console.log((th-vh));
   v.style.marginTop = (th - vh)+'px';
   a.style.marginTop = (th - ah)+'px';
-  var tvaw = document.getElementById('tvaWrapper');
-  // tvaw.style.marginLeft = (-1*(tvaw.offsetWidth/2))+'px';
 
   //resize juicebox gallery
   try {

@@ -11,23 +11,36 @@ function syncSoundcloudWavedata() {
 	var myFirebaseRef = new nodeFirebase("https://intense-fire-3188.firebaseio.com/");
 	var tracksRef = myFirebaseRef.child("tracks");
 	tracksRef.on("value", function(snapshot) {
-		//this function is called asynchronously!!
-		snapshot.forEach(function(childSnapshot) {
-	  		var key = childSnapshot.key()
-		  	var trackData = childSnapshot.val()
-		  	if (trackData && !trackData.hasOwnProperty('wavedata'))  {
-				var uri = trackData['uri'];
-	  			console.log('Track '+key+' has no wavedata! uri: '+uri);
-		  		try {
-		  			scwaveform(client_id, uri, function(err, wavedata) {
-						if (wavedata){ tracksRef.child(key).update({"wavedata":wavedata});}
-					});
-			  	} catch(err) {
-			  		console.log('Could not fetch wavedata for uri: '+uri);
-			  		console.log(err.message);
+		//this function is called asynchronously
+		if (snapshot) {
+			snapshot.forEach(function(childSnapshot) {
+		  		var key = childSnapshot.key();
+			  	var trackData = childSnapshot.val();
+			  	if (trackData && !trackData.hasOwnProperty('wavedata'))  {
+					var uri = trackData['uri'];
+		  			console.log('Track '+key+' has no wavedata! uri: '+uri);
+			  		try {
+			  			scwaveform(client_id, uri, function(err, wavedata) {
+			  				if (wavedata) {
+			  					console.log("attempted uri: "+uri);
+			  					checkWavedata = wavedata.substring(0,1);
+								if (wavedata && checkWavedata == '[') {
+									console.log("wave data check - "+checkWavedata);
+									tracksRef.child(key).update({"wavedata":wavedata});
+								} else {
+									console.log("erroneous wavedata was returned: "+ wavedata);
+								}
+							} else {
+								console.log("wave data returned was undefined. uri: "+uri);
+							}
+						});
+				  	} catch(err) {
+				  		console.log('Could not fetch wavedata for uri: '+uri);
+				  		console.log(err.message);
+				  	}
 			  	}
-		  	}
-		});
+			});
+		}
 	});
 }
 

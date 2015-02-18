@@ -731,8 +731,10 @@ h1 {
 }
 
 #soundcloudvizlights_hype_container {
-	top: -143px;
+	/*top: -143px;*/
 	z-index: 1;
+	position: fixed !important;
+
 }
 
 #soundcloudvizlightsbig_hype_container{
