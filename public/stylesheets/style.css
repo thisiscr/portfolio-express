@@ -609,15 +609,84 @@
 	list-style-type: none;
 	text-transform: uppercase;
 	top:20%;
-
 }
+
+
+.getInTouch {
+	position: relative;
+	left: 20%;
+}
+
+#cCard {
+	width: 80%;
+	min-width: 320px;
+	height: 57%;
+	margin-top: 1%;
+	position: absolute;
+	right: 0px;
+	border: 5px dashed white;
+	background-color: rgba(40, 38, 38, 0.7);
+	background: rgba(40, 38, 38, 0.7);
+	/*background-color: rgba(95, 95, 95, 0.75);
+	progid:DXImageTransform.Microsoft.gradient(startColorstr=#9A000000,endColorstr=#9A000000); 
+*/}
 
 #cform {
 	position: relative;
-	left:50%;
-	width: 50%;
+	left:0;
+	width: 80%;
 	padding: 0;
 	display: inline-block;
+}
+
+.cBox {
+	width: 33%;
+	height: 33.33%;
+	position: relative;
+	font-size: 5em;
+	text-align: center;
+}
+
+.cCardLink{
+	text-decoration: none;
+	color: white;
+}
+
+.cBox:hover{
+	background-color: white;
+	background: white;
+	color: black;
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+}
+
+.cText {
+	position: relative;
+	display: inline-block;
+	-webkit-transform: translateY(50%);
+  	-ms-transform: translateY(50%);
+  	transform: translateY(50%);
+}
+
+.cPanelRight {
+	width: 67%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	right:0;
+	border-left: 5px dashed white;
+}
+
+.cDark {
+	background-color: rgba(65, 65, 65, 0.75);
+	background: rgba(65, 65, 65, 0.75)
+}
+
+.cLight {
+	background-color: rgba(95, 95, 95, 0.75);
+	background: rgba(95, 95, 95, 0.75)
 }
 
 h1 {
@@ -626,6 +695,14 @@ h1 {
 	text-shadow: 0px 0px .7em #fff;
 }
 
+h6 {
+	margin:0;
+	padding: 1% 0 0 0;
+	font-size: 2em;
+}
+
+.h6Small {font-size: 1.5em;}
+
 .inputForm {
 	width: 100%;
 	height: 2em;
@@ -633,12 +710,9 @@ h1 {
 	padding-left: 3%;
 	padding-right: 3%;
 	position: relative;
-	border-color: white;
+	border: none;
 	color: #fff !important;
     text-shadow: 0px 0px .7em #fff;
-	-webkit-border-radius:1em;
-	-moz-border-radius:1em;
-	-border-radius:1em;
 	text-align: left;
 	background-color: rgba(95, 95, 95, 0.75);
 	progid:DXImageTransform.Microsoft.gradient(startColorstr=#9A000000,endColorstr=#9A000000); 
@@ -647,17 +721,15 @@ h1 {
 
 .areaForm {
 	width: 100%;
+	max-width: 100%;
 	height: 11em;
 	font-size: 1em;
 	padding: 3%;
 	margin-top: 2em;
-	border-color: white;
+	border: none;
 	position: relative;
 	color: #fff !important;
     text-shadow: 0px 0px .7em #fff;
-	-webkit-border-radius:1em;
-	-moz-border-radius:1em;
-	-border-radius:1em;
 	background-color: rgba(95, 95, 95, 0.75);
 	progid:DXImageTransform.Microsoft.gradient(startColorstr=#9A000000,endColorstr=#9A000000); 
 
@@ -711,22 +783,23 @@ h1 {
 	/*margin-top: 1em;*/
 	-webkit-border-radius:1em;
 	-moz-border-radius:1em;
-	-border-radius:1em;
+	border-radius:1em;
 	display: inline-block;
 	right:0;
 	}
 
 #send {
-	font-family: Eurostile;
+	font-family: Eurostile, Arial;
 	width:4em;
-	margin-left:-2em;
+	/*margin-left:-2em;*/
 	margin-top: 1em;
 	margin-bottom: 1.5em;
-	left:50%;
+	float: right;
 	position: relative;
-	-webkit-border-radius:1em;
-	-moz-border-radius:1em;
-	-border-radius:1em;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border: none;
 
 }
 
@@ -770,6 +843,8 @@ h1 {
 	position: absolute;
 }
 
+.height100{ height: 100%;}
+
 .horizCenter {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
@@ -778,10 +853,18 @@ h1 {
 }
 
 .vertCenter {
-	top: 100px;
 	-webkit-transform: translateY(-50%);
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
+}
+
+.allCenter{
+	position: relative;
+	display: inline-block;
+	left:50%;
+	-webkit-transform: translate(-50%, 50%);
+  	-ms-transform: translate(-50%, 50%);
+  	transform: translate(-50%, 50%);
 }
 
 .spinner {
@@ -933,6 +1016,37 @@ h4 {
 	}
 }
 
+/* CUSTOM BREAKS  ============================================================================= */
+
+@media only screen and (max-width: 1110px) and (min-width: 681px) {
+
+	h1 {
+		font-size: 1.7em;
+	}
+
+	h6 {
+		font-size: 1.5em;
+	}
+
+	.h6Small {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	h1 {
+		font-size: 1.7em;
+	}
+
+	h6 {
+		font-size: 1.5em;
+	}
+
+	.h6Small {
+		font-size: 1em;
+	}
+}
+
 /*  GRID OF TWO   ============================================================================= */
 
 
@@ -958,9 +1072,12 @@ h4 {
 	.span_1_of_2 {
 		width: 100%; 
 	}
-	.span_1_of_2:nth-child(2n) {
+	/*.span_1_of_2:nth-child(2n) {
 		width: 49.2%;
-		display:none;
+	}*/
+
+	#tvaCol {
+		display: none;
 	}
 
 	#mainLogo {
@@ -1008,13 +1125,14 @@ h4 {
 		display:block;
 	}
 
-	#getInTouch {
+	/*#getInTouch {
 		display: none;
-	}
+	}*/
 
 	#cform {
 		padding-top: 1em;
 		width: 90%;
+		margin-top: -40%;
 	}
 
 	#splashLogo {
@@ -1046,6 +1164,18 @@ h4 {
 
 	#topLeftHolder {
 		margin-left: -7%;
+	}
+
+	#cCard{
+		right: 50%;
+		width: 95%;
+		-webkit-transform: translateX(50%);
+	  	-ms-transform: translateX(50%);
+	  	transform: translateX(50%);
+	}
+
+	.getInTouch{
+		left: 2.5%;
 	}
 }
 

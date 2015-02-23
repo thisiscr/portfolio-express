@@ -38,8 +38,8 @@ function dynamics() {
   var tr = document.getElementById('topRes');
   tr.style.marginLeft = (-1*(tr.offsetWidth/2))+'px';
 
-  var cf = document.getElementById('cform');
-  if (cf) {cf.style.marginLeft = (-1*(cf.offsetWidth/2))+'px';}
+  // var cf = document.getElementById('cform');
+  // if (cf) {cf.style.marginLeft = (-1*(cf.offsetWidth/2))+'px';}
 
   var ms = document.getElementById('message');
   if (ms) {

@@ -2,10 +2,41 @@
 	document.getElementById("nvBar").style.display="none";
 </script>
 <!-- <div class="centeredContent">  -->
-<div class="section group">
-	<div class="col span_2_of_2">
+<div class="section group height100 scrollY">
+	<div class="col span_1_of_2 height100" style="position:relative;">
+		<h1 class="getInTouch">{{header}} </h1>
+		<div id="cCard">
+			<a class="cCardLink" href="/work/technical/code">
+				<div class="cBox cLight">
+					<span class="cText">T</span>
+				</div>
+			</a>
+			<a class="cCardLink" href="/work/visual/ux_design">
+				<div class="cBox cDark">
+					<span class="cText">V</span>
+				</div>
+			</a>
+			<a class="cCardLink" href="/work/audible/beats">
+				<div class="cBox cLight">
+					<span class="cText">A</span>
+				</div>
+			</a>
+			<div class="cPanelRight">
+				<span class="allCenter" style="text-align:center;">
+					<h1>CRAIG BROWN</h1>
+					</br>
+					<h6>+1 201.403.6107</h6>
+					<h6 class="h6Small">cbrown1616@hotmail.com</h6>
+					</br>
+					<h6>New York, NY</h6>
+					<h6>USA</h6>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="col span_1_of_2 height100" >
 		<form name="contactForm" method="post" action="/contact" id="cform">
-			<h1 id="getInTouch">{{header}} </h1>
+			<h1 class="getInTouch" style="visibility:hidden;">{{header}} </h1>
 			{{#if displayForm}}
 				<input class="inputForm" style="margin-top:2%;" type="text" placeholder="{{email}}" id="email" name="email"> </input>
 				<br class="clear"/>
