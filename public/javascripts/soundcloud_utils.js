@@ -23,12 +23,27 @@ function toggleElems(state) {
 	window.opacityToggleBig = state;
 	var gear = $('#mainLogoGear');
 	var logo = $('#mainLogo');
+	// var tvaBars = $('.vertGrad');
 	if (gear.hasClass("spinner")) {
 		gear.removeClass('spinner');
 		logo.css({'background-image':'url("/../images/logo_top_layer_gray.png")'});
+		// tvaBars.css({'background-image': '-webkit-gradient(linear,right bottom,right top,color-stop(0, #0F0F0F),color-stop(1, #B3B3B3))',
+		// 					'background-image': '-o-linear-gradient(top, #0F0F0F 0%, #B3B3B3 100%)',
+		// 					'background-image': '-moz-linear-gradient(top, #0F0F0F 0%, #B3B3B3 100%)',
+		// 					'background-image': '-webkit-linear-gradient(top, #0F0F0F 0%, #B3B3B3 100%)',
+		// 					'background-image': '-ms-linear-gradient(top, #0F0F0F 0%, #B3B3B3 100%)',
+		// 					'background-image': 'linear-gradient(top, #0F0F0F 0%, #B3B3B3 100%)',
+		// });
 	} else {
 		gear.addClass("spinner");
 		logo.css({'background-image':'url("/../images/logo_top_layer_purple.png")'});
+		// tvaBars.css({'background-image': '-webkit-gradient(linear,left top,left bottom,color-stop(0, ##B452FA),color-stop(0.34, #8528BF),color-stop(1, #000000))',
+		// 					'background-image': '-o-linear-gradient(bottom, #B452FA 0%, #8528BF 34%, #000000 100%)',
+		// 					'background-image': '-moz-linear-gradient(bottom, #B452FA 0%, #8528BF 34%, #000000 100%)',
+		// 					'background-image': '-webkit-linear-gradient(bottom, #B452FA 0%, #8528BF 34%, #000000 100%)',
+		// 					'background-image': '-ms-linear-gradient(bottom, #B452FA 0%, #8528BF 34%, #000000 100%)',
+		// 					'background-image': 'linear-gradient(to bottom, #B452FA 0%, #8528BF 34%, #000000 100%)',
+		// });
 	}
 }
 

@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body id='mainBGShade'>
 	<a id="splashLogo" href="/work/technical/code"></a>
@@ -26,6 +27,26 @@
 		//redirect to work page
 		window.location = "/work/technical/code";
 	}
+
+	$(document).ready(function(){
+	    $("#splashLogo").hover(function(){
+		        $("#splashBG").css({"background-image":'url("/../images/Site_BG_Main_Inverse.jpg")',
+		        						"background-repeat":'no-repeat',
+		        						"background-attachement":'fixed',
+		        						"background-position":'top left'
+		    						});
+		        $("#splashTVA").css("background-image", 'url("/../images/Viz_Tech_Aud_Inverse.png")');
+	        },function(){
+		        $("#splashBG").css({"background-image":'url("/../images/Site_BG_Main.jpg")',
+		        						"background-repeat":'no-repeat',
+		        						"background-attachement":'fixed',
+		        						"background-position":'top left'
+		    						});
+		        $("#splashTVA").css("background-image", 'url("/../images/Viz_Tech_Aud.png")');
+	    });
+	});
+
+</script>
 
 </script>
 </html>

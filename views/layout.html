@@ -31,8 +31,21 @@
         <div class="col span_1_of_2" style="position:relative;">
           <!-- <div id="tlDiv"> -->
           <div id="topLeftHolder" class="horizCenter">
-            <div id="mainLogoGear"></div>
-            <div id="mainLogo"></div>
+            <a id="logoLink" href="/">
+              <div id="mainLogoGear"></div>
+              <div id="mainLogo"></div>
+            </a>
+            <script type="text/javascript">
+              //make logo spin on hover
+              var gear = $('#mainLogoGear');
+              $(document).ready(function(){
+                $("#logoLink").hover(function(){
+                      gear.addClass("spinner")
+                    },function(){
+                      gear.removeClass('spinner');
+                });
+              });
+            </script>
             <div id="separator"></div>
             <ul class="mainNav">
                 <li><a href="/about" style={{aboutSelect}}>ABOUT</a></li>
