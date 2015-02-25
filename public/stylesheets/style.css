@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'EurostileServed';
-  src: url('../fonts/eurostile.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('../fonts/eurostile.TTF') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 #splashBG {
