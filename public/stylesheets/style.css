@@ -7,6 +7,11 @@
   src: url('../fonts/eurostile.TTF') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+@-ms-viewport{
+    width: device-width;
+    zoom: 1.0;
+}
+
 #splashBG {
 	background-image:url("../images/Site_BG_Main.jpg") no-repeat top left fixed;
 	background:url("../images/Site_BG_Main.jpg") no-repeat top left fixed;
