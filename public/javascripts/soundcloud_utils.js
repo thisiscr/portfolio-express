@@ -143,7 +143,7 @@ function createSoundcloudGallery(container) {
 				  }
 
 				  // load new widget
-				  widget.load(newSoundUrl+"&color=8428BF", {
+				  widget.load(newSoundUrl+"&color=6800f9", {
 				  	show_artwork: true,
 				  });
 					
