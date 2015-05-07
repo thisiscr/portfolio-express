@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <juiceboxgallery>
-  <image imageURL="/../images/UX_Gallery/model_hhp_red.jpg"
+  <!-- <image imageURL="/../images/UX_Gallery/model_hhp_red.jpg"
 	thumbURL="/../javascripts/juicebox/thumbs/model_hhp_red_ux.jpg"
 	linkURL="/../images/UX_Gallery/model_hhp_red.jpg"
 	linkTarget="_blank"
 	sourcePath="/Users/craigbrown/WebProfiles/thisiscr/public//../images/UX_Gallery/model_hhp_red.jpg">
     <title><![CDATA[UX/UI Development]]></title>
     <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
-  </image>
+  </image> -->
   <image imageURL="/../images/UX_Gallery/model_port.jpg"
 	thumbURL="/../javascripts/juicebox/thumbs/model_port_ux.jpg"
 	linkURL="/../images/UX_Gallery/model_port.jpg"

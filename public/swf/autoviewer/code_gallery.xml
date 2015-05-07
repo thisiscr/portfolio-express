@@ -6,12 +6,12 @@
    <width>700</width>
    <height>500</height>
 </image>
-<image>
+<!-- <image>
    <url>/../images/Code_Gallery/model_hhp_red.jpg</url>
    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
    <width>700</width>
    <height>500</height>
-</image>
+</image> -->
 <image>
    <url>/../images/Code_Gallery/model_port.jpg</url>
    <caption><![CDATA[<font face="Eurostile, Arial" size="15em"><font color="#cfcfcf"></font>]]></caption>
