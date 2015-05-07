@@ -1,6 +1,6 @@
 Express.js resoures from portfolio - www.thisiscraigbrown.com
 
-Files of interested --
+Files of interest --
 
 ##Soundcloud Audio Vizualizer
 
